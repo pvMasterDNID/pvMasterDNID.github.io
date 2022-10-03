@@ -1,0 +1,16 @@
+Une nouvelle page : pw3exo.html
+
+Thème : science des données et calcul
+
+- un sujet abordé
+	- taper une partie du texte du cours et pour 4 mots différents vous allez les illustrer avec une photo, un son, une video et un site web.
+	
+- vous modifiez votre index.html afin d'avoir un lien vers ce fichier
+- vous gittez (add, commit, push)
+
+
+Chercher sur internet : 
+- couleur dans le texte, 
+- modifier le fond d'écran
+
+	
