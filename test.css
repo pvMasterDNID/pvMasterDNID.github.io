@@ -1,0 +1,7 @@
+
+div * li {color:green;}
+div * p {color:red;}
+
+.titi li .sel { font-size: 24pt; color:blue; }
+
+#menu > p {color : yellow;}
