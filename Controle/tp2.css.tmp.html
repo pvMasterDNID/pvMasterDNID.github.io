@@ -1,0 +1,78 @@
+<style>
+/* 
+    M2CCI - Applications internet
+    Feuille de style pour le TP n° 2
+    Created on : 4 oct. 2019, 17:11:56
+    Author     : Philippe Genoud - LIG Steamer - Université Grenoble Aples
+*/
+/*
+             * Exercice 1 : sélecteurs d'éléments HTML. Les styles s'appliquent à tous les élements.
+             */
+body {
+    background-image: url("images/cement.jpg");
+}
+h1 {
+    text-align: center;
+    /* règles ajoutées pour l'exercice 7.1 */
+    border: solid; /* bordure solide : trait plein */
+    font-size: 3.0em;  /* taille de police 3 fois plus grosse*/
+    background: red;   /* couleur de fond rouge*/
+    width: 75%;    /* largeur de l'élément h1 : 3/4 de l'élément englobant */
+    margin: 40px auto 20px auto;  /* marges dans l'ordre haut, droit, bas, gauche
+           - les marges haut, droit et gauche sont automatiques afin que l'élément
+             h1 soit centré dans la fenêtre,
+           - la marge basse est de 20 pixels.
+    */
+}
+
+
+h2 {
+    color: blue;
+    background-color: goldenrod;
+    /* règles ajoutées pour l'exercice 7.1 */
+    border: solid 1px;   /* bordure trait plein */
+    margin: 10px 40px 10px 40px; /* marges extérieures dans l'ordre haut, droit, bas, gauche */
+    padding : 10px 30px; /* marges intérieures le premier nombre donne les marges haute et basse
+                          le deuxième nombre donne les marges gauche et droite */
+}
+p {
+    text-indent: 16px;
+    text-align: justify;
+}      
+
+
+/*
+ * Exercice 2 :
+ * sélecteur de classe, les styles ne s'applique que aux éléments ayant la classe
+ * de style comme attribut.
+ */
+.surligne {
+    background-color: yellow;
+}
+/*
+ * Exercie 4.1 : sélecteur par identifiant
+ */
+#cadre1 {
+    border-style: solid;
+    font-style: italic;
+    font-size: 0.5em;
+    background-color: rgb(210,210,210);
+}
+/*
+ * Exercie 4.2 : sélecteur par identifiant
+ */
+#cadre2 {
+    border-style:dashed;
+    background-color: rgba(0, 0, 255, 0.15);
+}
+/*
+ * Exercice 5.1 : sélecteur de pseudo élément
+ */
+p::first-letter {
+    font-size: 1.8em;
+    color: red;
+    font-weight: bolder;
+}
+
+
+</style>
