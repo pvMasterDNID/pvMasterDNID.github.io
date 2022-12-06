@@ -13,4 +13,7 @@ Chercher sur internet :
 - couleur dans le texte, 
 - modifier le fond d'écran
 
-	
+Codage de l'espace : 
+
+- bla%20bla   === bla bla (web)
+- bla\ bla.txt  === bla bla.txt (fichier)
